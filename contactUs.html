@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styleSheet.css" class="css">
+    <title>iRobotRoombaS9</title>
+<!--
+    Author: Abdulrazig Ishag Adam, s23136827
+    Organisation: Birmingham City University
+    Copyright: Copyright 2024
+-->
+</head>
+<body>
+    <header>
+        <div class="logo">
+                <a href="index.html">
+                    <img src="images/iRobotLogo1.png" alt="Romba s9 logo">
+                </a>
+            </div>
+        <div class="collapsibleMenu">
+            <input type="checkbox" id="menu">
+            <label for="menu"></label>
+            <div class="menu-content">
+                <ul>
+                    <li><a href="roombaS9.html">Roomba s9 </a></li>
+                    <li><a href="howItWorks.html">How it works</a></li>
+                    <li><a class="active" href="contactUs.html">Contact us</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="rowOne">
+        <!-- Column number 1 -->
+        <div class="columnA">
+            <h1>
+                Contact us information
+            </h1>
+        </div>
+        <!-- Column number 2 -->
+        <div class="columnB">
+            <h1>
+                Contact details
+            </h1>
+            <table>
+                <tr>
+                    <td>Email:</td>
+                    <td>Northfieldirobotroombas9.co.uk</td>
+                </tr>
+                <tr>
+                    <td>Mobile number:</td>
+                    <td>0121 XXX XXXX</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- rows 2, 3, 4 and 5 -->
+    <div class="row2Message">
+        <h1>Share your experience</h1>
+        <form action="mailto:Abdulrazig.Adam@mail.bcu.ac.uk" method="post" class="messageForm">
+            <input type="email" class="messageBox" placeholder="Your email" required>
+            <input type="text" class="messageBox" placeholder="Subject">
+            <textarea class="messageBox" placeholder="Message Box" required></textarea>
+            <button class="sendMessageBtn">Send Message</button>
+        </form>
+    </div>
+    <!-- rows 6 & 7 -->
+    <div class="rowOne">
+        <!-- Column number 1 -->
+        <div class="columnA">
+            <h1>
+                Opening times
+            </h1>
+            <table>
+                <tr> <td> Monday</td> <td>09:00</td> <td>18:00</td> </tr>
+                <tr> <td> Tuesday</td> <td>09:00</td> <td>18:00</td> </tr>
+                <tr> <td> Wednesday</td> <td>09:00</td> <td>18:00</td> </tr>
+                <tr> <td> Thursday</td> <td>09:00</td> <td>18:00</td> </tr>
+                <tr> <td> Friday</td> <td>09:00</td> <td>18:00</td> </tr>
+                <tr> <td> Saturday</td> <td>10:00</td> <td>15:00</td> </tr>
+                <tr> <td> Sunday</td> <td>closed</td> <td></td> </tr>
+            </table>
+        </div>
+        <!-- Column number 2 -->
+        <div class="columnB">
+            <h1>
+                Location
+            </h1>
+            <p>
+                Northfield iRobot Roomba s9 Center
+                <br>Birmingham, England, GB
+                <br>United Kingdom
+            </p>
+        </div>
+    </div>
+    <div class="mapContainer">
+        <h2>Our guidance map</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9735.660597948001!2d-1.9729107187599242!3d52.40821400251102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487095809ad0ffc7%3A0xe8c8f87e209835b1!2sNorthfield%2C%20Birmingham%20B31%203UP!5e0!3m2!1sen!2suk!4v1699815222238!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer>
+        &copy; <span id="currentYear"></span> iRobot Roomba s9
+    </footer>
+    <script>
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
